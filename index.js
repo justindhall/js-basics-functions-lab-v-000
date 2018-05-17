@@ -21,7 +21,7 @@ function distanceTravelledInFeet(pickupLocation, dropoffLocation){
 function validFare(distance){
   
   if(distance > 2500){
-    return true;
+    return false;
     else{
       return false;
     }
