@@ -41,7 +41,7 @@ function calculatesFarePrice(pickupLocation, dropoffLocation){
     }
     
     else if (distance > 400 && distance <= 2000) {
-      return parsefloat((.02 * distance - 8).toFixed(2));
+      return parseFloat((.02 * distance - 8).toFixed(2));
     }
     
     else {
