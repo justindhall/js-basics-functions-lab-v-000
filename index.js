@@ -33,7 +33,7 @@ function calculatesFarePrice(pickupLocation, dropoffLocation){
   const distance = distanceTravelledInFeet(pickupLocation, dropoffLocation);
   
   if (validFare(distance) === false){
-    return 'That trip is too far!'; 
+    return 'cannot travel that far'; 
   }
   
     else if (distance < 400){
