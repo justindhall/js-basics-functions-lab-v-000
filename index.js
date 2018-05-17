@@ -26,11 +26,10 @@ function validFare(distance){
     else{
       return true;
     }
-  }
-  
 }
 
 function calculatesFarePrice(pickupLocation, dropoffLocation){
+  
   
   
   
