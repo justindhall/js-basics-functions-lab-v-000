@@ -22,8 +22,9 @@ function validFare(distance){
   
   if(distance > 2500){
     return false;
+  }
     else{
-      return false;
+      return true;
     }
   }
   
