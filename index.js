@@ -30,7 +30,7 @@ function validFare(distance){
 
 function calculatesFarePrice(pickupLocation, dropoffLocation){
   
-  
+  if (validFare(distanceTravelledInFeet(pickupLocation, dropoffLocation)))
   
   
 }
