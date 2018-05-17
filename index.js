@@ -30,6 +30,23 @@ function validFare(distance){
 
 function calculatesFarePrice(pickupLocation, dropoffLocation){
   
-  distanceTravelledInFeet(pickupLocation, dropoffLocation)
+  const distance = distanceTravelledInFeet(pickupLocation, dropoffLocation);
+  
+  if (validFare(distance) === false){
+    return 'That trip is too far!'; 
+  }
+  
+    else if (distance < 400){
+      return 0;
+    }
+    
+    else if (distance > 400 && distance <= 2000) {
+      return .02*distance;
+    }
+    
+    else {
+      return 25; 
+    }
+    }
   
 }
