@@ -47,6 +47,4 @@ function calculatesFarePrice(pickupLocation, dropoffLocation){
     else {
       return 25; 
     }
-    }
-  
 }
