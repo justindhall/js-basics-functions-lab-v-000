@@ -31,8 +31,9 @@ function validFare(distance){
 function calculatesFarePrice(pickupLocation, dropoffLocation){
   
   if (validFare(distanceTravelledInFeet(pickupLocation, dropoffLocation)) === false) {
-      return ''
+      return 'That distance is too far!';
   }
+  
   
   
 }
