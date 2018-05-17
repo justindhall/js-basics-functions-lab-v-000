@@ -23,7 +23,10 @@ function validFare(distance){
   const valid;
   
   if(distance > 2500){
+    return true;
+  else{
     
+  }
   }
   
 }
